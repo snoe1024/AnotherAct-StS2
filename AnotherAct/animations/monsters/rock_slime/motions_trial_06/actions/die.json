@@ -1,0 +1,398 @@
+{
+  "duration": 3.25,
+  "end": "hold",
+  "entry_blend_seconds": 0.02,
+  "events": {
+    "impact": 0,
+    "backbend": 0.09,
+    "detach_back": 0.06,
+    "detach_left": 0.1,
+    "detach_right": 0.14,
+    "body_flat": 1.32,
+    "hold": 3.25,
+    "finished": 3.25
+  },
+  "keys": [
+    {
+      "time": 0,
+      "root_W": 0,
+      "collapse": 1,
+      "controls": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.09,
+      "root_W": 0,
+      "collapse": 1,
+      "controls": [
+        [
+          370,
+          5,
+          0.98,
+          1.02,
+          24
+        ],
+        [
+          115,
+          8,
+          1.01,
+          0.99,
+          7
+        ],
+        [
+          0,
+          0,
+          1.04,
+          0.98,
+          -1
+        ]
+      ]
+    },
+    {
+      "time": 0.18,
+      "root_W": 0,
+      "collapse": 0.99,
+      "controls": [
+        [
+          425,
+          18,
+          1.02,
+          1,
+          27
+        ],
+        [
+          150,
+          18,
+          1.04,
+          0.98,
+          9
+        ],
+        [
+          0,
+          0,
+          1.06,
+          0.98,
+          -1
+        ]
+      ]
+    },
+    {
+      "time": 0.32,
+      "root_W": 0,
+      "collapse": 0.89,
+      "controls": [
+        [
+          440,
+          40,
+          1.07,
+          0.98,
+          26
+        ],
+        [
+          190,
+          28,
+          1.08,
+          0.96,
+          9
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.58,
+      "root_W": 0,
+      "collapse": 0.59,
+      "controls": [
+        [
+          280,
+          40,
+          1.14,
+          0.97,
+          12
+        ],
+        [
+          135,
+          25,
+          1.13,
+          0.97,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.93,
+      "root_W": 0,
+      "collapse": 0.3,
+      "controls": [
+        [
+          185,
+          20,
+          1.19,
+          1,
+          5
+        ],
+        [
+          85,
+          10,
+          1.17,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 1.32,
+      "root_W": 0,
+      "collapse": 0.16,
+      "controls": [
+        [
+          140,
+          0,
+          1.22,
+          1,
+          0
+        ],
+        [
+          45,
+          0,
+          1.2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 3.25,
+      "root_W": 0,
+      "collapse": 0.16,
+      "controls": [
+        [
+          140,
+          0,
+          1.22,
+          1,
+          0
+        ],
+        [
+          45,
+          0,
+          1.2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "body_mix": [
+    [
+      0,
+      0
+    ],
+    [
+      0.04,
+      1
+    ],
+    [
+      3.25,
+      1
+    ]
+  ],
+  "guard_tracks": {
+    "rock_back": [
+      [
+        0,
+        1
+      ],
+      [
+        0.06,
+        1
+      ],
+      [
+        0.18,
+        0
+      ]
+    ],
+    "rock_left": [
+      [
+        0,
+        1
+      ],
+      [
+        0.1,
+        1
+      ],
+      [
+        0.22,
+        0
+      ]
+    ],
+    "rock_right": [
+      [
+        0,
+        1
+      ],
+      [
+        0.14,
+        1
+      ],
+      [
+        0.26,
+        0
+      ]
+    ]
+  },
+  "projectiles": [
+    {
+      "part": "rock_back",
+      "detach": 0.06,
+      "velocity": [
+        640,
+        -1300
+      ],
+      "gravity": 3200,
+      "angular_velocity": 185,
+      "inherit_velocity": true,
+      "inherited_velocity_gain": 0.18,
+      "centered_rotation": true,
+      "floor": true,
+      "roll_seconds": 0.9,
+      "settle_rotation_deg": 313.1795704019854,
+      "roll_distance": 230,
+      "rolling_model": "decelerating_ground_roll"
+    },
+    {
+      "part": "rock_left",
+      "detach": 0.1,
+      "velocity": [
+        840,
+        -1120
+      ],
+      "gravity": 3200,
+      "angular_velocity": 330,
+      "inherit_velocity": true,
+      "inherited_velocity_gain": 0.35,
+      "centered_rotation": true,
+      "floor": true,
+      "roll_seconds": 1.85,
+      "settle_rotation_deg": 755.1480397062028,
+      "roll_distance": 520,
+      "rolling_model": "decelerating_ground_roll"
+    },
+    {
+      "part": "rock_right",
+      "detach": 0.14,
+      "velocity": [
+        360,
+        -450
+      ],
+      "gravity": 3200,
+      "angular_velocity": 150,
+      "inherit_velocity": true,
+      "inherited_velocity_gain": 0.1,
+      "centered_rotation": true,
+      "floor": true,
+      "roll_seconds": 0.8,
+      "settle_rotation_deg": 311.9841069171998,
+      "roll_distance": 100,
+      "rolling_model": "decelerating_ground_roll"
+    }
+  ],
+  "stages": [
+    {
+      "name": "impact",
+      "time": 0
+    },
+    {
+      "name": "fast backbend",
+      "time": 0.09
+    },
+    {
+      "name": "early release",
+      "time": 0.14
+    },
+    {
+      "name": "upward scatter",
+      "time": 0.46
+    },
+    {
+      "name": "collapse / fall",
+      "time": 0.93
+    },
+    {
+      "name": "body flat / rolling",
+      "time": 1.32
+    },
+    {
+      "name": "small stone rolling",
+      "time": 2.1
+    },
+    {
+      "name": "held flat rocks",
+      "time": 3.25
+    }
+  ],
+  "material_profile": "top_front_only",
+  "event_contract": {
+    "schema_version": 1,
+    "time_domain": "asset",
+    "time_unit": "seconds",
+    "time_origin": "motion_start",
+    "events_location": "events",
+    "runtime_speed_policy": "owned_by_game"
+  }
+}

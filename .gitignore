@@ -1,0 +1,30 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# Generated build/editor caches
+.godot/
+.mono/
+.import/
+.idea/
+.vs/
+.vscode/
+*.DotSettings.user
+*.log
+*.tmp
+*.bak
+export_credentials.cfg
+.DS_Store
+Thumbs.db
+
+# Private agent instructions, design notes and local experiments
+AGENTS.md
+CLAUDE.md
+.claude/
+.codex/
+.agents/
+.local/
+loadmap.md
+docs/handoff-status.md

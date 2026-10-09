@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://3n83jfjm2krt"]
+
+[node name="Encounter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="mini1" type="Marker2D" parent="."]
+position = Vector2(840, 697)
+
+[node name="mini2" type="Marker2D" parent="."]
+position = Vector2(1023, 654)
+
+[node name="mini3" type="Marker2D" parent="."]
+position = Vector2(1198, 705)
+
+[node name="mini4" type="Marker2D" parent="."]
+position = Vector2(1351, 665)
+
+[node name="stoneshroom" type="Marker2D" parent="."]
+position = Vector2(1640, 699)

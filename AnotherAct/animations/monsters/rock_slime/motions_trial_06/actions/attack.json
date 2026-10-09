@@ -1,0 +1,466 @@
+{
+  "duration": 2.35,
+  "end": "idle_loop",
+  "events": {
+    "charge": 0.2,
+    "launch": 0.36,
+    "empty_top": 0.72,
+    "replenish_start": 1.03,
+    "replenish_complete": 1.84,
+    "neutral": 2.35,
+    "flight_end": 1.1,
+    "recover_complete": 2.35,
+    "impact": 1.1
+  },
+  "keys": [
+    {
+      "time": 0,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 0.2,
+      "root_W": 0,
+      "controls": [
+        [
+          25,
+          65,
+          1.02,
+          0.94,
+          2
+        ],
+        [
+          10,
+          30,
+          1.03,
+          0.96,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 0.27,
+      "root_W": 0,
+      "controls": [
+        [
+          35,
+          80,
+          1.03,
+          0.92,
+          3
+        ],
+        [
+          10,
+          38,
+          1.04,
+          0.95,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 0.36,
+      "root_W": 0,
+      "controls": [
+        [
+          -55,
+          -65,
+          0.97,
+          1.04,
+          -7
+        ],
+        [
+          -15,
+          -25,
+          0.99,
+          1.02,
+          -2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 0.52,
+      "root_W": 0,
+      "controls": [
+        [
+          -35,
+          -28,
+          0.99,
+          1.02,
+          -4
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 0.82,
+      "root_W": 0,
+      "controls": [
+        [
+          15,
+          30,
+          1.02,
+          0.97,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 1.03,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          20,
+          1.02,
+          0.98,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 1.43,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          38,
+          1.03,
+          0.97,
+          0
+        ],
+        [
+          0,
+          18,
+          1.02,
+          0.98,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 1.84,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          -12,
+          1,
+          1.02,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 2.1,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          6,
+          1,
+          0.99,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    },
+    {
+      "time": 2.35,
+      "root_W": 0,
+      "controls": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "collapse": 1
+    }
+  ],
+  "body_mix": [
+    [
+      0,
+      0
+    ],
+    [
+      0.16,
+      1
+    ],
+    [
+      1.88,
+      1
+    ],
+    [
+      2.16,
+      0
+    ]
+  ],
+  "guard_tracks": {
+    "rock_back": [
+      [
+        0,
+        1
+      ],
+      [
+        0.36,
+        1
+      ],
+      [
+        0.52,
+        0
+      ],
+      [
+        1.03,
+        0
+      ],
+      [
+        1.45,
+        1
+      ]
+    ]
+  },
+  "attached_offsets": {
+    "rock_back": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.27,
+        0,
+        32
+      ],
+      [
+        0.36,
+        0,
+        0
+      ]
+    ]
+  },
+  "projectiles": [
+    {
+      "part": "rock_back",
+      "detach": 0.36,
+      "velocity": [
+        -8000,
+        -5200
+      ],
+      "gravity": 14000,
+      "angular_velocity": -280,
+      "retire": "flight_end",
+      "flight_seconds": 0.74,
+      "fade_seconds": 0.055,
+      "centered_rotation": true
+    }
+  ],
+  "replacement": {
+    "part": "rock_back",
+    "start": 1.03,
+    "complete": 1.84,
+    "offset_y": 370,
+    "foreground_lip": true
+  },
+  "stages": [
+    {
+      "name": "charge",
+      "time": 0.27
+    },
+    {
+      "name": "launch",
+      "time": 0.36
+    },
+    {
+      "name": "apex / 2.27W",
+      "time": 0.73
+    },
+    {
+      "name": "flight / 3.05W",
+      "time": 0.86
+    },
+    {
+      "name": "head-height flight end",
+      "time": 1.1
+    },
+    {
+      "name": "emergence",
+      "time": 1.43
+    },
+    {
+      "name": "replacement",
+      "time": 1.84
+    },
+    {
+      "name": "idle0",
+      "time": 2.35
+    }
+  ],
+  "trajectory_targets": {
+    "distance_at_0_50s_after_launch_W": 3.048780487804878,
+    "apex_after_launch_seconds": 0.37142857142857144,
+    "rise_source_px": 965.7142857142857
+  },
+  "material_profile": "top_front_only",
+  "idle_return_mode": "neutral_zero",
+  "event_contract": {
+    "schema_version": 1,
+    "time_domain": "asset",
+    "time_unit": "seconds",
+    "time_origin": "motion_start",
+    "events_location": "events",
+    "runtime_speed_policy": "owned_by_game"
+  },
+  "event_provenance": {
+    "impact": {
+      "kind": "game_sync_marker",
+      "basis": "user_selected_flight_end",
+      "physical_contact_observed_in_preview": false,
+      "reference_leaf_cast_has_impact": false
+    }
+  }
+}

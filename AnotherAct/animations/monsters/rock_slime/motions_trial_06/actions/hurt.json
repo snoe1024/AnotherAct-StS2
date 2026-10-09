@@ -1,0 +1,249 @@
+{
+  "duration": 1.35,
+  "end": "idle_loop",
+  "entry_blend_seconds": 0.02,
+  "events": {
+    "impact": 0,
+    "backbend": 0.09,
+    "recoil_hold": 0.26,
+    "elastic_rebound": 0.52,
+    "second_tremor": 0.78,
+    "neutral": 1.35
+  },
+  "keys": [
+    {
+      "time": 0,
+      "root_W": 0,
+      "collapse": 1,
+      "controls": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.09,
+      "root_W": 0.13,
+      "collapse": 1,
+      "controls": [
+        [
+          380,
+          5,
+          0.98,
+          1.02,
+          24
+        ],
+        [
+          115,
+          8,
+          0.99,
+          1.01,
+          7
+        ],
+        [
+          0,
+          0,
+          1.03,
+          0.98,
+          -1
+        ]
+      ]
+    },
+    {
+      "time": 0.26,
+      "root_W": 0.13,
+      "collapse": 1,
+      "controls": [
+        [
+          360,
+          18,
+          1,
+          0.99,
+          21
+        ],
+        [
+          115,
+          12,
+          1.02,
+          0.99,
+          6
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.52,
+      "root_W": 0.065,
+      "collapse": 1,
+      "controls": [
+        [
+          -90,
+          50,
+          1.06,
+          0.95,
+          -7
+        ],
+        [
+          -35,
+          24,
+          1.04,
+          0.97,
+          -2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 0.78,
+      "root_W": 0.025,
+      "collapse": 1,
+      "controls": [
+        [
+          90,
+          -14,
+          0.98,
+          1.03,
+          6
+        ],
+        [
+          30,
+          -8,
+          1,
+          1.01,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 1.02,
+      "root_W": 0.006,
+      "collapse": 1,
+      "controls": [
+        [
+          -28,
+          18,
+          1.03,
+          0.98,
+          -2
+        ],
+        [
+          -10,
+          8,
+          1.01,
+          0.99,
+          -1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "time": 1.35,
+      "root_W": 0,
+      "collapse": 1,
+      "controls": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "name": "impact",
+      "time": 0
+    },
+    {
+      "name": "strong backbend",
+      "time": 0.09
+    },
+    {
+      "name": "recoil hold",
+      "time": 0.26
+    },
+    {
+      "name": "elastic rebound",
+      "time": 0.52
+    },
+    {
+      "name": "second tremor",
+      "time": 0.78
+    },
+    {
+      "name": "damped tremor",
+      "time": 1.02
+    },
+    {
+      "name": "idle0",
+      "time": 1.35
+    }
+  ],
+  "event_contract": {
+    "schema_version": 1,
+    "time_domain": "asset",
+    "time_unit": "seconds",
+    "time_origin": "motion_start",
+    "events_location": "events",
+    "runtime_speed_policy": "owned_by_game"
+  }
+}

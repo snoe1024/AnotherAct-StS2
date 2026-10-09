@@ -1,0 +1,21 @@
+{
+  "ANOTHERACT-WITHDRAWN_POWER.title": "打たれ弱い",
+  "ANOTHERACT-WITHDRAWN_POWER.description": "このターン中ダメージを受けていたら、状態異常を生成しない。",
+  "ANOTHERACT-WITHDRAWN_POWER.smartDescription": "このターン中ダメージを受けていたら、状態異常を生成しない。",
+  
+  "ANOTHERACT-IMPACT_DRILL_POWER.title": "インパクトドリル",
+  "ANOTHERACT-IMPACT_DRILL_POWER.description": "このモンスターがプレイヤーの[gold]ブロック[/gold]を0にしたとき、そのプレイヤーに[gold]弱体[/gold]を付与する。",
+  "ANOTHERACT-IMPACT_DRILL_POWER.smartDescription": "このモンスターがプレイヤーの[gold]ブロック[/gold]を0にしたとき、そのプレイヤーに[gold]弱体[/gold][blue]{ImpactDrillPower}[/blue]を付与する。 ",
+
+  "ANOTHERACT-RECKLESS_POWER.title": "無謀",
+  "ANOTHERACT-RECKLESS_POWER.description": "このモンスターがターン中に15以上のダメージを受けた場合, [gold]スタン[/gold]する。他の敵が死んだとき、これを解除する。",
+  "ANOTHERACT-RECKLESS_POWER.smartDescription": "[gold]{OwnerName}[/gold]がターン中に[blue]{Amount}[/blue]以上のダメージを受けた場合, [gold]スタン[/gold]する。他の[gold]{OwnerName}[/gold]が死んだとき、これを解除する。",
+
+  "ANOTHERACT-POSSESSING_POWER.title": "憑依",
+  "ANOTHERACT-POSSESSING_POWER.description": "カウント終了時、[red]罪悪感[/red]が[gold]デッキ[/gold]に追加される。",
+  "ANOTHERACT-POSSESSING_POWER.smartDescription": "{Amount:plural:[blue]{Amount}[/blue]ターン後|[gold]{OwnerName}[/gold]がターンを迎えた時}、[red]罪悪感[/red]が[gold]デッキ[/gold]に追加される。",
+
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.title": "岩の手",
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.description": "あなたがプレイしたカードは、[gold]巨大な岩[/gold]に変化する！",
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.smartDescription": "あなたがプレイしたカードは、[gold]巨大な岩[/gold]に変化する！"
+}

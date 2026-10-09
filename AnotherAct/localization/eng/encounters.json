@@ -1,0 +1,28 @@
+{
+  "ANOTHERACT-ROCK_SLIME_VISUAL_TEST.title": "Rock Slime Visual Test",
+  "ANOTHERACT-ROCK_SLIME_VISUAL_TEST.loss": "Rock Slime Visual Test",
+
+  "ANOTHERACT-BOULDER_MITES_NORMAL.title": "Boulder Mites",
+  "ANOTHERACT-BOULDER_MITES_NORMAL.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-DRILL_MACHINE_WEAK.title": "Drill Machine",
+  "ANOTHERACT-DRILL_MACHINE_WEAK.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-LINGERING_GHOST_NORMAL.title": "Lingering Ghost",
+  "ANOTHERACT-LINGERING_GHOST_NORMAL.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-MINE_SLIMES_NORMAL.title": "Mine Slimes",
+  "ANOTHERACT-MINE_SLIMES_NORMAL.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-MINE_SLIMES_WEAK.title": "Mine Slimes Weak",
+  "ANOTHERACT-MINE_SLIMES_WEAK.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-ROCK_GOLEM_NORMAL.title": "Rock Golem",
+  "ANOTHERACT-ROCK_GOLEM_NORMAL.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-STONE_SHROOM_NORMAL.title": "Stone Shroom",
+  "ANOTHERACT-STONE_SHROOM_NORMAL.loss": "How did {character} die to [gold]{encounter}[/gold]?",
+
+  "ANOTHERACT-TWIN_SERPENT_ELITE.title": "Twin Serpent",
+  "ANOTHERACT-TWIN_SERPENT_ELITE.loss": "How did {character} die to [gold]{encounter}[/gold]?"
+}

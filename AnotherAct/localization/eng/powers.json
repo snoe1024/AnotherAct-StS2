@@ -1,0 +1,21 @@
+{
+  "ANOTHERACT-WITHDRAWN_POWER.title": "Withdrawn",
+  "ANOTHERACT-WITHDRAWN_POWER.description": "If damaged in this turn, do not add any status cards to your deck.",
+  "ANOTHERACT-WITHDRAWN_POWER.smartDescription": "If damaged in this turn, do not add any status cards to your deck.",
+
+  "ANOTHERACT-IMPACT_DRILL_POWER.title": "Impact Drill",
+  "ANOTHERACT-IMPACT_DRILL_POWER.description": "When this monster breaks player's [gold]Block[/gold], apply [gold]Vulnerable[/gold].",
+  "ANOTHERACT-IMPACT_DRILL_POWER.smartDescription": "When this monster breaks player's [gold]Block[/gold], apply [blue]{ImpactDrillPower}[/blue] [gold]Vulnerable[/gold].",
+
+  "ANOTHERACT-RECKLESS_POWER.title": "Reckless",
+  "ANOTHERACT-RECKLESS_POWER.description": "If this creature damaged 15 or more in this turn, it becomes [gold]Stunned[/gold]. When the other Venomous Serpent dies, remove this.",
+  "ANOTHERACT-RECKLESS_POWER.smartDescription": "If [gold]{OwnerName}[/gold] damaged [blue]{Amount}[/blue] or more in this turn, it becomes [gold]Stunned[/gold]. When the other [gold]{OwnerName}[/gold] dies, remove this.",
+
+  "ANOTHERACT-POSSESSING_POWER.title": "Possessing",
+  "ANOTHERACT-POSSESSING_POWER.description": "When count ends, Add [red]Guilty[/red] to your [gold]Deck[/gold].",
+  "ANOTHERACT-POSSESSING_POWER.smartDescription": "{Amount:plural:In [blue]{}[/blue] turns|When [gold]{OwnerName}[/gold] takes its turn}, Add [red]Guilty[/red] to your [gold]Deck[/gold].",
+
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.title": "Touch of Rock",
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.description": "The card you played transforms into a [gold]Giant Rock[/gold]!",
+  "ANOTHERACT-TOUCH_OF_ROCK_POWER.smartDescription": "The card you played transforms into a [gold]Giant Rock[/gold]!"
+}
